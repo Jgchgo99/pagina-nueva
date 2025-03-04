@@ -1,0 +1,42 @@
+nav ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+header {
+    background-color: #5c94cc;
+    padding: 0;
+    position: sticky;
+    top: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    justify-content: left;
+    padding: 20px ;
+    justify-content:left;
+
+}
+nav {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    
+}
+
+header{
+ padding: 0;
+}
+section {
+   height: 100vh;
+   padding: 60px 20px;
+}
+.presentacion{
+    background-color: rgb(157, 184, 184);
+}
+.imagenSection{ 
+    width: 400px;
+    height: auto; /*pa que tu imagen mantenga la proporcion*/
+
+}
+
