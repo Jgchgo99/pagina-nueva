@@ -15,13 +15,22 @@ nav ul li a {
     justify-content: left;
     padding: 20px ;
     justify-content:left;
-
+    font-family: "Open Sans", sans-serif;
+}
+nav ul li a:hover{
+    background-color: #8fd4ff;
+    color: rgb(0, 0, 0);
 }
 nav {
     margin: 0px;
     padding: 0px;
     display: flex;
     
+}
+nav img{
+    height: auto;
+    width: 50px; 
+    padding: 10px 10px;
 }
 
 header{
@@ -34,9 +43,37 @@ section {
 .presentacion{
     background-color: rgb(157, 184, 184);
 }
-.imagenSection{ 
-    width: 400px;
-    height: auto; /*pa que tu imagen mantenga la proporcion*/
 
+p{
+    font-family: "Open Sans", sans-serif;
 }
+h3{
+    font-family: "Open Sans", sans-serif;
+}
+
+.imagenSection{ 
+    width: 300px;
+    margin-top: 30px;
+    height: auto; /*pa que tu imagen mantenga la proporcion*/
+}
+.imagenSectionAlgoMas{ 
+    width: 600px;
+    margin-top: 30px;
+    height: auto; /*pa que tu imagen mantenga la proporcion*/
+}
+footer {
+    background-color: #009dff;
+    color: #1D1616;
+    padding: 20px 20px;
+    display: flex;
+    align-items:center;
+    bottom: 0;
+    justify-content: space-between;
+}
+
+.motivFrase{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
 
